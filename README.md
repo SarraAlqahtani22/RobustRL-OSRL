@@ -1,6 +1,8 @@
-# Observation Agnostic Reinforcement Learning
+# Safe Reinforcement Learning via Observation Shielding 
+This code is for our paper: 
+Joe McCalmon; Tongtong Liu; Reid Goldsmith; Andrew Cyhaniuk; Talal Halabi; Sarra Alqahtani, Safe Reinforcement Learning via Observation Shielding, The Hawaii International Conference on System Sciences HICSS2023, accepted.
 
-This repository adapts the work of [1] for a defense mechanism against large perturbations,
+This repository develops a defense mechanism against large perturbations,
 Observation Agnostic Reinforcement Learning. Environments, base ddpg, sa-ddpg, and most of the code is from [1].
 Models have been pre-trained. OARL runs on top of pre-trained models so the only instruction given here is how to
 test ddpg, sa-ddpg, and oarl models given the pre-trained weights. For instructions on how to pre-train models using this repository, see saddpg_readme.md
